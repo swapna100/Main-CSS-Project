@@ -46,4 +46,50 @@
     src: url(./fonts/Roboto-LightItalic.ttf);
 }
 
+*{
+    margin:0px;
+    font-family:'Roboto_Regular';
+}
+.first_container{
+    background-color: #1F2937;
+    padding-left:70px;
+    padding-top: 10px;
+   
+}
 
+#logo{
+    font-size: 24px;
+    color:#F9FAF9;
+    font-family: 'Roboto_black';
+    font-weight: bold;
+    
+}
+#link_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav  a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.mainmenu{
+    float: right;
+    display: inline;
+    padding-right: 40px;
+    justify-content: space-between;
+
+}
+#row1{
+    padding-top: 30px;
+}
+#row1 span{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Roboto_Regular';
+    
+}

@@ -52,8 +52,10 @@
 }
 .first_container{
     background-color: #1F2937;
-    padding-left:70px;
+    padding-left:100px;
     padding-top: 10px;
+    padding-bottom: 100px;
+    padding-right: 100px;;
    
 }
 
@@ -67,29 +69,202 @@
 #link_header{
     display: flex;
     justify-content: space-between;
+    /*justify-content: space-evenly;*/
+    float: center;
+    padding-right: 100px;
 }
 
 nav  a {
-    font-size: 18px;
     color: #E5E7EB;
+    font-size: 18px;
+    font-family: 'Roboto_Regular';
+    font-weight: lighter;
     text-decoration: none;
-    justify-content: space-between;
+   /* justify-content: space-between;
+    padding-right: 20px;*/
+    justify-content: space-evenly;
     padding-right: 20px;
 }
 .mainmenu{
     float: right;
     display: inline;
-    padding-right: 40px;
-    justify-content: space-between;
+    /*padding-right: 250px;*/
+    justify-content: space-evenly;
 
 }
 #row1{
-    padding-top: 30px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+   
 }
 #row1 span{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
     font-family: 'Roboto_Regular';
+   
+}
+#info{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: 'Roboto_Regular';
+    font-weight: lighter;
+}
+
+#column1{
+    padding-right: 20px;
+        
+}
+#column1 button{
+   margin-top: 13px;
+   background-color:#3882F6;
+   color:#F9FAF8;
+   font-weight: bold;
+   width:100px;
+   height:30px;
+   border-radius: 5px;
+   border:transparent;
+}
+#column2{
+    padding-right: 100px;
+}
+#column2 img{
+    margin-left: 0px;
+    width:600px;
+    height:260px;
+    /*padding-right: 300px;*/
+}
+#row2{
+    justify-content: center;
+    align-items: center;
+}
+#heading2{
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'Roboto_Bold';
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+#section2 {
+    /*float: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;*/
+    display: flex;
+   text-align: center;
+   justify-content: space-between;
+   justify-items: center;
+   padding-left:400px;
+   padding-right: 400px;
     
+}
+#img1{
+    border:2px solid #3882F6;
+    width:150px;
+    height:150px;
+    border-radius: 5px;
+    /*text-align: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    justify-items: center;*/
+}
+#img_desc{
+    padding-top:10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    justify-items: center;
+    padding-left:400px;
+    padding-right: 400px;
+    margin-bottom: 20px;
+}
+#row3{
+    background-color: #E5E7EB;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+#quote{
+        
+    justify-content: center;
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Roboto_thin_italic';
+    color:#1F2937;
+    padding-top:80px;
+    padding-bottom: 80px;
+    
+   
+    
+}
+
+#author  {
+    padding-left: 70px;;
+    font-family: 'Roboto_black';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    padding-top: 30px;
+}
+#row4{
+    display: flex;
+    text-align: left;
+    justify-items: left;
+    padding-left: 20px;
+    border: transparent;
+    background-color:#3882F6;
+    width:1000px;
+    height:100px;
+    justify-content: space-around;
+    margin-left: 280px;
+    margin-top:50px;
+   border-radius: 4px;
+    align-items: center;
+    
+}
+.col1 .sent1{
+    color:#F9FAF8;
+    font-weight: bolder;
+}
+.col1 .sent2{
+    color:#E5E7EB;
+    font-weight:100;
+    font-family: 'Roboto_thin';
+    display: inline;
+    justify-content: space-between;
+    
+}
+#signup{
+    margin-left: 250px;
+    background-color: transparent;
+    border:2px solid  #E5E7EB;
+    border-radius: 4px;
+    justify-content: center;
+    color: #FFF;
+    width:100px;
+    height:25px;
+    font-family: 'Roboto_Regular';
+    font-weight: 500;
+}
+footer{
+    margin-top: 70px;
+    background-color: #1F2937;
+    height:80px;
+    box-sizing: content-box;
+    text-align: center;
+    
+    justify-items: center;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
